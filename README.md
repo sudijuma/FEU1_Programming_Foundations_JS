@@ -15,7 +15,7 @@ photo credit: https://www.warnerbros.com/movies/2001-space-odyssey/
 3. make a new branch for todays adventure
 4. open project in VS CODE
 5. open `index.html` inside the `1_space_odyssey` folder and use [VS CODE Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) to run the site
-6. in the `js` folder create folder for you eg. `manny-9000` and in it create an `app.js` file
+6. in the `js` folder create folder for you eg. `hesh-9000` and in it create an `app.js` file
 7. open `_adventures-9000/app.js` copy the contents into your `app.js` 
 1. conquer each adventure in sequence that they appear
 2. definition of done is a pull request
