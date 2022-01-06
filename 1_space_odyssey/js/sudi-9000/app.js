@@ -136,13 +136,19 @@ if (hasJetPack) {
        cannot go outside, console log the correct log based on that condition.
 */
 console.log('\u{1F6F0} BROKEN SATELLITE::::::');
+if (hasJetPack === true) {
+    console.log('Droid is deployed');
+} else {
+    console.log('Go back, enable your jet pack')
+}
 
 /*
  uncomment these console logs and write your if else statement and use them to console log out the correct statement
-
+ 
+if (hasJetPack)
  console.log("JetPack is enabled!!! off I go outside to fix the satellite");
  console.log("JetPack NOT enabled, please enable jetPack before doing a space walk");
- */
+
 
 /*
  3. METEOR SHOWER::::::
@@ -159,14 +165,13 @@ var responses = [
   'ask humanoid-9000 to fly out there and shield the ship from the debris, this action could harm the humanoid',
 ];
 
-for (var i = 0; i <= responses.length; i++) {
+/* for (var i = 4; i <= responses.lenght; i++) {
   if (responses[i] === responses[3]) {
     console.log(responses[i]);
   }
 }
-
-// write your code here, use the console log beneath
-// console.log("\u{1F6F8} Swoosh -> -> Ship is steered to safety!");
+ */
+console.log("\u{1F6F8} Swoosh -> -> Ship is steered to safety!");
 
 /*
  4. ALIENS SPACE CRAFT ENCROACHING::::::
